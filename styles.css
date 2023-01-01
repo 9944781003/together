@@ -1,0 +1,120 @@
+.card-img {
+  position: relative;
+  height: 295px;
+  left: 0px;
+  top: 0px;
+  background: url("./images/rectangle_1.png");
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.calender {
+  position: relative;
+  width: 100px;
+  height: 103px;
+  left: 0px;
+  top: 0px;
+  background: rgba(5, 143, 110, 0.8);
+  border-radius: 8px 0px 0px 0px;
+}
+.calender > h1 {
+  position: absolute;
+  width: 56px;
+  height: 54px;
+  left: 22px;
+  top: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 112%;
+  text-align: center;
+  color: #ffffff;
+}
+.card-img > p {
+  position: absolute;
+  height: 50px;
+  left: 21px;
+  top: 210px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 104%;
+  /* or 25px */
+  color: #fff3f3;
+}
+.birthday-card {
+  width: 375px;
+  height: 470px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.user-card-list {
+  display: flex;
+  flex-direction: column;
+}
+.user-card {
+  width: 376px;
+  height: 92.5px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.event-card {
+  border-radius: 16px;
+  padding: 0;
+  margin-block: 16px;
+  height: 470px;
+}
+.bday-card {
+  border-radius: 16px;
+  padding: 0;
+  margin-block: 16px;
+  height: 470px;
+  background: url("./images/usercard_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bday-card h4 {
+  color: #8f058a;
+  text-align: center;
+}
+.bday-card p {
+  line-height: 0.5rem;
+  text-align: center;
+  font-style: italic;
+}
+.user-card:nth-child(1n) {
+  margin-block: 1.5em;
+}
+.user-card-typo {
+  margin-left: 1em;
+}
+.user-card-typo h4 {
+  color: #8f058a;
+  font-size: medium;
+}
+.user-card-typo p {
+  line-height: 0.5rem;
+  font-style: italic;
+}
+.header {
+  height: 120px;
+  background: linear-gradient(
+    180deg,
+    #8f058a 0%,
+    rgba(255, 255, 255, 0.26) 238.33%
+  );
+  width: 100vw;
+}
+.footer {
+  height: 240px;
+  background: linear-gradient(
+    180deg,
+    #8f058a 0%,
+    rgba(255, 255, 255, 0.26) 238.33%
+  );
+  width: 100vw;
+}

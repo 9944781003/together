@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Jomhuria-Regular;
+  src: url("./fonts/Jomhuria-Regular.ttf") format(ttf);
+}
+
+/* body * {
+  font-family: Jomhuria-Regular !important;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 .card-img {
   position: relative;
   height: 295px;
@@ -23,7 +32,7 @@
   height: 54px;
   left: 22px;
   top: 12px;
-  font-family: "Poppins";
+  font-family: "Poppins-Regular";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -36,7 +45,7 @@
   height: 50px;
   left: 21px;
   top: 210px;
-  font-family: "Poppins";
+  font-family: "Poppins-Regular";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -101,7 +110,13 @@
   font-style: italic;
 }
 .header {
-  height: 120px;
+  background: linear-gradient(
+    180deg,
+    #8f058a 0%,
+    rgba(255, 255, 255, 0.26) 238.33%
+  );
+}
+.footer {
   background: linear-gradient(
     180deg,
     #8f058a 0%,
@@ -109,12 +124,91 @@
   );
   width: 100vw;
 }
-.footer {
-  height: 240px;
-  background: linear-gradient(
-    180deg,
-    #8f058a 0%,
-    rgba(255, 255, 255, 0.26) 238.33%
-  );
-  width: 100vw;
+.navbar-brand {
+  background-color: #8f058a;
+}
+
+.logo h1 {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 32px;
+  line-height: 0px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: revert;
+  font-family: Jomhuria-Regular;
+}
+.logo p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: auto;
+  /* identical to box height */
+  letter-spacing: 0.4em;
+  text-align: center;
+  color: #f9faf9;
+  font-family: Jomhuria-Regular;
+}
+
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .navbar > .container-fluid {
+    padding-inline: 6rem;
+  }
+}
+.navbar-light .navbar-nav .nav-item > a {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-item > a:hover {
+  color: #099574 !important;
+  font-size: large;
+  font-weight: 500;
+}
+.active-user {
+  font-family: "Poppins-Regular";
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff !important;
+  opacity: 0.6;
+}
+title {
+  font-family: "Poppins-Regular";
+  font-family: "Poppins-Regular";
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.6;
+}
+.footer h4 {
+  color: #fff;
+}
+.about {
+  color: #e3e3e3;
+  font-family: "Poppins-Regular";
+  line-height: 1.5rem;
+  letter-spacing: -1px;
+  font-size: large;
+}
+.footer li {
+  color: #e3e3e3;
+  font-family: "Poppins-light";
+  line-height: 1.5rem;
+  font-size: 22px;
+  display: inline;
+  letter-spacing: 0.15rem;
+}
+.terms {
+  color: #bdb9b9;
+  font-family: "Poppins-light";
+  line-height: 1.5rem;
+  font-size: larger;
+  letter-spacing: 0.15rem;
+}
+.footer input {
+  margin-bottom: 8px;
+  border-radius: 8px;
+  height: 60px;
+}
+.footer textarea {
+  margin-bottom: 8px;
+  border-radius: 8px;
 }
